@@ -1,7 +1,11 @@
-package test
+package main
 
 import (
 	_ "fmt"
 
-	_ "github.com/ordinary-coding/ihttp/server"
+	ser "github.com/ordinary-coding/ihttp/server"
 )
+
+func main() {
+	ser.RunServer()
+}
