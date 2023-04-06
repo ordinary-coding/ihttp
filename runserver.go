@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	_ "fmt"
@@ -9,4 +9,3 @@ import (
 func main() {
 	ser.RunServer()
 }
-
